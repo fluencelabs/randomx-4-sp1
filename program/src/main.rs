@@ -10,12 +10,12 @@ sp1_zkvm::entrypoint!(main);
 
 use alloy_sol_types::SolValue;
 
-use fibonacci_lib::randomx_bindings::cache::randomx_cache;
-use fibonacci_lib::randomx_bindings::dataset::randomx_dataset;
-use fibonacci_lib::randomx_bindings::flags::{randomx_flags, randomx_flags_RANDOMX_FLAG_MICRO};
+use unused_lib::randomx_bindings::cache::randomx_cache;
+use unused_lib::randomx_bindings::dataset::randomx_dataset;
+use unused_lib::randomx_bindings::flags::{randomx_flags, randomx_flags_RANDOMX_FLAG_MICRO};
 
-use fibonacci_lib::randomx_bindings::vm::randomx_vm;
-// use fibonacci_lib::{fibonacci, PublicValuesStruct};
+use unused_lib::randomx_bindings::vm::randomx_vm;
+// use unused_lib::{fibonacci, PublicValuesStruct};
 use sp1_zkvm::syscalls::sys_panic;
 
 use core::alloc::Layout;
